@@ -196,6 +196,9 @@ for_window [class="Kcalc"] floating enable
 # screenshot
 bindsym Print exec ksnapshot
 
+# use randr to set desktop configuration
+exec --no-startup-id /home/christoph/.xprofile
+
 # compositor, need for vsync!
 exec --no-startup-id compton -cCGb --backend glx --vsync opengl
 
