@@ -3,4 +3,7 @@
 Install packages
 ----------------
   * feh $ sudo apt-get install feh
-  * playerctl https://github.com/acrisci/playerctl
+
+Install python modules
+----------------------
+$ sudo pip install i3pystatus
