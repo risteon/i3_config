@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from i3pystatus import Status
 
 status = Status(standalone=True)
@@ -25,11 +27,11 @@ status.register("clock",
 #    },)
 #
 ## Note: the network module requires PyPI package netifaces
-#status.register("network",
-#    interval=globInterval,
-#    interface="enp0s25",
-#    format_up="{v4cidr}",)
-#
+status.register("network",
+    interval=globInterval,
+    interface="eth0",
+    format_up="{v4cidr}",)
+
 ## Note: requires both netifaces and basiciw (for essid and quality)
 #status.register("network",
 #    interval=globInterval,
