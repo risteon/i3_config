@@ -54,9 +54,9 @@ status.register("disk",
 # Shows pulseaudio default sink volume
 #
 # Note: requires libpulseaudio from PyPI
-#status.register("pulseaudio",
-#    format="♪{volume}%",)
-#
+status.register("pulseaudio",
+    format="♪{volume}%",)
+
 ## Show backlight percentage
 #status.register("backlight",
 #    interval=globInterval,
