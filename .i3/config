@@ -173,6 +173,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightne
 # 
 hide_edge_borders vertical
 new_window none
+for_window [class="Kcalc"] floating enable
 
 # screenshot
 bindsym Print exec ksnapshot
