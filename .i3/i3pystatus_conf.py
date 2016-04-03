@@ -55,12 +55,16 @@ status.register("disk",
 #
 # Note: requires libpulseaudio from PyPI
 status.register("pulseaudio",
-    format="♪{volume}%",)
+    format="{volume}%",)
 
 ## Show backlight percentage
 #status.register("backlight",
 #    interval=globInterval,
 #    format="☀{percentage}%",
 #    base_path="/sys/class/backlight/intel_backlight/",)
+
+status.register("bitcoin",
+        currency="EUR")
+
 
 status.run()
