@@ -176,6 +176,10 @@ bindsym $mod+n exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
 # lock system
 bindsym $mod+Shift+d exec i3lock -c 222222
 
+# use scratchpad
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% && killall -SIGUSR1 i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% && killall -SIGUSR1 i3status
