@@ -206,10 +206,7 @@ bindsym Print exec ksnapshot
 exec --no-startup-id compton -cCGb --backend glx --vsync opengl
 
 # xroot background image
-exec_always --no-startup-id ~/.fehbg
-
-# Start up Programs always that are always used
-exec --no-startup-id i3-msg 'workspace 3; exec i3-sensible-terminal'
+exec_always --no-startup-id nitrogen --restore
 
 # use randr to set desktop configuration
 exec --no-startup-id /home/christoph/.xprofile
