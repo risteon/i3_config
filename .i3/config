@@ -209,7 +209,7 @@ bindsym Print exec ksnapshot
 
 
 # compositor, need for vsync!
-exec --no-startup-id compton -cCGb --backend glx --vsync opengl
+exec --no-startup-id compton --vsync opengl
 
 # xroot background image
 exec_always --no-startup-id nitrogen --restore
