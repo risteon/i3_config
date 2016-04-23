@@ -199,6 +199,7 @@ new_window normal 2
 for_window [window_role="pop-up"] floating enable
 for_window [class="google-chrome"] border none
 for_window [class="konsole"] border none
+for_window [class="Gnome-terminal"] border none
 
 for_window [class="Kcalc"] floating enable
 
