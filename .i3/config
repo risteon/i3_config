@@ -230,6 +230,7 @@ for_window [class="konsole"] border none
 for_window [class="Gnome-terminal"] border none
 
 for_window [class="Kcalc"] floating enable
+for_window [instance="sun-awt-X11-XFramePeer"] floating enable
 
 
 # screenshot
