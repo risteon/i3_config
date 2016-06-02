@@ -234,7 +234,7 @@ for_window [instance="sun-awt-X11-XFramePeer"] floating enable
 
 
 # screenshot
-bindsym Print exec ksnapshot
+bindsym Print exec shutter
 
 
 # compositor, need for vsync!

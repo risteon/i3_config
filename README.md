@@ -7,9 +7,10 @@ Install software
   * feh
   * nitrogen
   * xbacklight
+  * Screenshots: shutter
   * playerctl https://github.com/acrisci/playerctl
 ```
-sudo apt-get install feh nitrogen xbacklight
+sudo apt-get install feh nitrogen xbacklight shutter
 ```
 
 Quickswitch.py
