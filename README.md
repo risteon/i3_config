@@ -1,10 +1,10 @@
 # i3_config
 
-Configuration files and install notes for the i3 window manager and additonal programs. For Ubuntu 16.04. xenial.
+Configuration files and install notes for the i3 window manager and additonal programs. For Ubuntu 16.04. Xenial.
 
-Install software
-----------------
-  * (feh)
+Install distro packages 
+-----------------------
+  * feh
   * nitrogen
   * xbacklight
   * Screenshots: shutter
@@ -13,13 +13,16 @@ Install software
 sudo apt-get install feh nitrogen xbacklight shutter
 ```
 
-Composition + VSync: compton
+PyPi packages for i3pystatus
 ----------------------------
-Install [compton](https://github.com/chjj/compton). On Ubuntu:
-```
-sudo apt-get install compton
-```
-Set symlink to ~/config/compton.conf
+Install for Python 3.
+
+  * i3pystatus
+  * netifaces
+  * basiciw
+  * colour
+
+basiciw needs libiw.
 
 Quickswitch.py
 --------------
