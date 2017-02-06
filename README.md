@@ -20,6 +20,7 @@ Install for Python 3.
   * i3pystatus
   * netifaces
   * basiciw
+  * psutil
   * colour
 
 basiciw needs libiw.
