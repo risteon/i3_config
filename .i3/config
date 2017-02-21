@@ -275,6 +275,9 @@ exec --no-startup-id /home/christoph/.xprofile
 # RXVT terminal emulator daemon
 exec --no-startup-id urxvtd
 
+# xbindkeys for mouse thumb wheel remapping
+exec --no-startup-id xbindkeys
+
 # daemon containing powerline python process
 exec --no-startup-id /usr/local/bin/powerline-daemon -q 
 

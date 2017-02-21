@@ -9,8 +9,9 @@ Install distro packages
   * xbacklight
   * Screenshots: shutter
   * playerctl https://github.com/acrisci/playerctl
+  * mouse buttons remapping: xautomation, xbindkeys
 ```
-sudo apt-get install feh nitrogen xbacklight shutter
+sudo apt-get install feh nitrogen xbacklight shutter xautomation xbindkeys
 ```
 
 PyPi packages for i3pystatus
