@@ -266,6 +266,7 @@ bindsym Print exec shutter
 # compositor, need for vsync!
 exec --no-startup-id compton
 
+exec_always --no-startup-id setxkbmap -layout us -variant altgr-intl -option nodeadkeys
 # xroot background image
 exec_always --no-startup-id nitrogen --restore
 

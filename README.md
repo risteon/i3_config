@@ -4,14 +4,16 @@ Configuration files and install notes for the i3 window manager and additonal pr
 
 Install distro packages 
 -----------------------
-  * feh
+  * (feh)
   * nitrogen
   * xbacklight
   * Screenshots: shutter
   * playerctl https://github.com/acrisci/playerctl
   * mouse buttons remapping: xautomation, xbindkeys
+  * dmenu (suckless-tools)
+  * libiw-dev for Pip basiciw
 ```
-sudo apt-get install feh nitrogen xbacklight shutter xautomation xbindkeys
+sudo apt-get install feh nitrogen xbacklight shutter xautomation xbindkeys suckless-tools libiw-dev
 ```
 
 PyPi packages for i3pystatus
