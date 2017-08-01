@@ -48,3 +48,8 @@ sudo apt update
 sudo apt install adapta-gtk-theme
 ```
 
+Prevent Nemo file browser from spawning a desktop window
+---------------
+```
+gsettings set org.nemo.desktop show-desktop-icons false
+```

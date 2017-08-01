@@ -20,8 +20,8 @@ status.register("mem_bar",)
 status.register("mem", format="MEM {percent_used_mem}%",)
 
 # Shows your CPU temperature, if you have a Intel CPU
-status.register("temp",
-    format="{temp:.0f}°C",)
+# status.register("temp",
+#    format="{temp:.0f}°C",)
 
 # The battery monitor has many formatting options, see README for details
 
@@ -63,9 +63,6 @@ status.register("disk",
 # Note: requires libpulseaudio from PyPI
 status.register("pulseaudio",
     format="♪{volume}",)
-
-# Bitcoin
-status.register("bitcoin", format="EUR/BTC {last_price}{status}", currency='EUR')
 
 
 status.run()
