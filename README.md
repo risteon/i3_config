@@ -53,3 +53,14 @@ Prevent Nemo file browser from spawning a desktop window
 ```
 gsettings set org.nemo.desktop show-desktop-icons false
 ```
+
+i3lock fork
+------------------
+```
+git clone https://github.com/Lixxia/i3lock.git
+```
+
+Resize i3lock icon
+```
+convert -resize 40% icon.png.orig ~/.xlock/icon.png
+```
