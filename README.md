@@ -2,6 +2,11 @@
 
 Configuration files and install notes for the i3 window manager and additonal programs. For Ubuntu 16.04. Xenial.
 
+## Symlink comption config
+```
+$ ln -s ~/i3_config/compton.conf ~/.config/compton.conf
+```
+
 Install distro packages 
 -----------------------
   * (feh)
