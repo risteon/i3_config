@@ -1,6 +1,6 @@
 #!/bin/sh
 lock() {
-    i3lock -c 222244
+    ~/workspace/__SYSTEM/i3lock/i3lock -c 222244
 }
 
 turn_off_monitor() {
